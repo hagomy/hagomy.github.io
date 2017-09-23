@@ -9,3 +9,10 @@ a.jcm-top {
   background-size: 29px 29px;
   display: none; 
 }
+
+a.jcm-top.static {
+    position: static;
+    float: right;
+    margin-top: 51px; /* 51px = 100(content-footer-spacing) - 29(self height) - 20(bottom) */
+    margin-right: 30px;
+}
