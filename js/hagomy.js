@@ -2,7 +2,7 @@ $(document).ready( function() {
 	$(window).scroll(
 		function() {
 			if ($(this).scrollTop() > 200) {
-				$('.jcm-top').fadeIn();
+				//$('.jcm-top').fadeIn();
 				$('.jcm-top').show();
 			}
 			else {
